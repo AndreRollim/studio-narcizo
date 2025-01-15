@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff69b4;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffddee;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.galeria {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.galeria-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.galeria-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sobre {
+    padding: 4rem 2rem;
+    background-color: #ffddee;
+}
+
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.sobre p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff69b4;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #ff69b4;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav li {
+        text-align: center;
+    }
+}
