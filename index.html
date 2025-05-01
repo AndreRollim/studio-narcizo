@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Studio Narcizo</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
     <script src="./script.js" defer></script>
+    <script src="./slide.js" defer></script>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <div class="logo">Studio Narcizo</div>
+            <div class="logo">
+                <img src="./assets/icon.png" alt="Imagem ilustrativa de cabelos">
+                <h1>Studio Narcizo</h1>
+            </div>
             <nav>
                 <div class="hamburger">☰</div>
                 <ul>
@@ -23,21 +28,56 @@
     </header>
 
     <main>
-        <section id="galeria" class="galeria">
-            <div class="galeria-container">
-                <div class="galeria-item">
-                    <img src="./assets/download (1).jpg" alt="Salão de Beleza 1">
+        <section class="main-content">
+            <div class="main-container">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+            </div>
+        </section>
+
+
+        <section id="galeria" class="slider-section">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="/api/placeholder/600/400" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="/api/placeholder/600/400" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="/api/placeholder/600/400" alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="/api/placeholder/600/400" alt="Imagem 4">
+                    </div>
+                    <div class="slide">
+                        <img src="/api/placeholder/600/400" alt="Imagem 5">
+                    </div>
                 </div>
-                <div class="galeria-item">
-                    <img src="./assets/download.jpg" alt="Salão de Beleza 2">
-                </div>
-                <div class="galeria-item">
-                    <img src="./assets/Ida-Axenstedt-1.jpg" alt="Salão de Beleza 3">
+                
+                <button class="btn prev">&lt;</button>
+                <button class="btn next">&gt;</button>
+                
+                <div class="indicators">
+                    <span class="indicator active" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                    <span class="indicator" data-index="3"></span>
+                    <span class="indicator" data-index="4"></span>
                 </div>
             </div>
         </section>
 
         <section id="sobre" class="sobre">
+            <div class="sobre-container">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+            </div>
+            <div class="sobre-container">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+            </div>
             <div class="sobre-container">
                 <h2>Sobre Nós</h2>
                 <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
@@ -49,21 +89,22 @@
         <div class="footer-container">
             <div class="footer-section">
                 <h3>Contato</h3>
-                <p>Telefone: (11) 99999-9999</p>
+                <p>Telefone: (32) 99121-8568</p>
                 <p>Email: contato@belezanatural.com</p>
-                <p>Endereço: Rua da Beleza, 123</p>
+                <p>Endereço: Marechal Center - Marechal Deodoro, 444-309     
+                    Centro, Juiz de Fora - MG
+                </p>
             </div>
             <div class="footer-section">
                 <h3>Horário de Funcionamento</h3>
-                <p>Segunda a Sábado: 9h às 20h</p>
-                <p>Domingo: Fechado</p>
+                <p>Entre em contato para agendamento</p>
             </div>
             <div class="footer-section">
                 <h3>Redes Sociais</h3>
                 <div class="social-icons">
-                    <a href="#" title="Facebook">📱</a>
-                    <a href="#" title="Instagram">📸</a>
-                    <a href="#" title="WhatsApp">📞</a>
+                    <a href="#" title="Facebook"><img src="./assets/logo gmail cópia.png" alt=""></a>
+                    <a href="#" title="Instagram"><img src="./assets/insta logo.png"></a>
+                    <a href="#" title="WhatsApp"><img src="./assets/whatsapp logo.png"></a>
                 </div>
             </div>
         </div>
