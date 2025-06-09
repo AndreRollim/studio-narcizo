@@ -264,7 +264,7 @@ footer {
         display: block;
     }
 
-    main, .main-container {
+    main, .main-container, .main-content {
         background-color: #FFFF;
     }
 
