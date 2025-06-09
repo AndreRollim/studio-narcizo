@@ -263,10 +263,9 @@ footer {
         display: block;
     }
 
-    main {
+    main, .main-content {
         background-color: #FFFF;
     }
-    
     nav ul {
         border-top: 1px solid #dfc014e0;
         border-bottom: 1px solid #dfc014e0;
