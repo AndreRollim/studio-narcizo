@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .slider-section {
@@ -176,23 +176,34 @@ main {
 
 
 .sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     padding: 4rem 2rem;
     background-color: #ffddee;
    
 }
 
-.sobre-container {
+.sobre-container, .sobre-footer {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-.sobre h2 {
+.sobre-footer{
+    padding: 4rem 2rem;
+    background-color: #ffddee;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre h2, .sobre-footer h2 {
     color: #333;
     margin-bottom: 1.5rem;
 }
 
-.sobre p {
+.sobre p, .sobre-footer p {
     color: #666;
     line-height: 1.6;
 }
@@ -237,6 +248,16 @@ footer {
     color: #615a5d;
 }
 
+.whatsapp-float {
+    position: fixed;      
+    bottom: 20px;        
+    right: 20px;         
+    z-index: 1000;    
+    color: #25D366;   
+    font-size: 2rem;
+    
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: block;
@@ -263,4 +284,9 @@ footer {
     nav li {
         text-align: center;
     }
+
+    .whatsapp-float{
+        font-size: 1.2rem;
+    }
+
 }

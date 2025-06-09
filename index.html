@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Studio Narcizo</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
+
     <script src="./script.js" defer></script>
     <script src="./slide.js" defer></script>
 </head>
@@ -19,6 +25,7 @@
             <nav>
                 <div class="hamburger">☰</div>
                 <ul>
+                    <li><a href="#inicio">Início</a></li>
                     <li><a href="#galeria">Galeria</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -28,7 +35,7 @@
     </header>
 
     <main>
-        <section class="main-content">
+        <section id="inicio" class="main-content">
             <div class="main-container">
                 <h2>Sobre Nós</h2>
                 <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
@@ -40,19 +47,19 @@
             <div class="slider-container">
                 <div class="slider">
                     <div class="slide">
-                        <img src="/api/placeholder/600/400" alt="Imagem 1">
+                        <img src="./assets/teste1.jpg" alt="Imagem 1">
                     </div>
                     <div class="slide">
-                        <img src="/api/placeholder/600/400" alt="Imagem 2">
+                        <img src="./assets/teste2.jpg" alt="Imagem 2">
                     </div>
                     <div class="slide">
-                        <img src="/api/placeholder/600/400" alt="Imagem 3">
+                        <img src="./assets/teste4.jpg" alt="Imagem 3">
                     </div>
                     <div class="slide">
-                        <img src="/api/placeholder/600/400" alt="Imagem 4">
+                        <img src="./assets/teste4.jpg" alt="Imagem 4">
                     </div>
                     <div class="slide">
-                        <img src="/api/placeholder/600/400" alt="Imagem 5">
+                        <img src="./assets/teste5.jpg" alt="Imagem 5">
                     </div>
                 </div>
                 
@@ -69,20 +76,22 @@
             </div>
         </section>
 
-        <section id="sobre" class="sobre">
-            <div class="sobre-container">
-                <h2>Sobre Nós</h2>
-                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
-            </div>
-            <div class="sobre-container">
-                <h2>Sobre Nós</h2>
-                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
-            </div>
-            <div class="sobre-container">
-                <h2>Sobre Nós</h2>
-                <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
-            </div>
-        </section>
+        <div>
+            <section id="sobre" class="sobre">
+                <div class="sobre-container">
+                    <h2>Sobre Nós</h2>
+                    <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+                </div>
+                <div class="sobre-container">
+                    <h2>Sobre Nós</h2>
+                    <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+                </div>
+            </section>
+            <div class="sobre-footer">
+                    <h2>Sobre Nós</h2>
+                    <p>Bem-vindo ao Studio Narcizo, onde a beleza encontra a excelência. Há mais de 10 anos, somos referência em serviços de beleza, oferecendo cortes, coloração, tratamentos capilares, maquiagem e muito mais. Nossa equipe de profissionais altamente qualificados está comprometida em realçar sua beleza natural e proporcionar uma experiência única de cuidados pessoais.</p>
+                </div>
+        </div>
     </main>
 
     <footer id="contato">
@@ -103,12 +112,16 @@
                 <h3>Redes Sociais</h3>
                 <div class="social-icons">
                     <a href="#" title="Facebook"><img src="./assets/logo gmail cópia.png" alt=""></a>
-                    <a href="#" title="Instagram"><img src="./assets/insta logo.png"></a>
+                    <a href="https://www.instagram.com/marilianarcizo_studio/" title="Instagram" target="_blank"><img src="./assets/insta logo.png"></a>
                     <a href="#" title="WhatsApp"><img src="./assets/whatsapp logo.png"></a>
                 </div>
             </div>
         </div>
     </footer>
+    <a href="#" id="whatsapp-link" target="_blank"
+        class="whatsapp-float">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
     
 </body>
 </html>
