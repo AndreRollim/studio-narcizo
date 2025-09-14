@@ -1,4 +1,4 @@
-# 🚀 Studio vip - Salão de beleza
+#  Studio vip - Salão de beleza
 
 📌 **Descrição:**  
   Website criado com javascript para salão de beleza.
@@ -43,5 +43,6 @@ Feito com ❤️ por André Rolim
 <a href="https://github.com/AndreRollim" target="_blank">
   🔗 Confira outros projetos no meu Portfólio
 </a>
+
 
 
